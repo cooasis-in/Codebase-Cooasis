@@ -2,6 +2,7 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import styles from "../ourServices/WebDesign.module.css";
 
 const WebDesign = () => {
   const settings = {
@@ -65,6 +66,13 @@ const WebDesign = () => {
           ))}
         </Slider>
       </div>
+      <div className="w-[196.56px] h-[83px] mt-[100px] m-auto">
+            <button
+              className={`w-[200px] h-[70px] rounded-full font-semibold text-black text-lg flex items-center justify-center ${styles.btn} `}
+            >
+              Browse all services
+            </button>
+          </div>
     </div>
   );
 };
