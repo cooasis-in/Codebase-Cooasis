@@ -15,7 +15,7 @@ const Intro = () => {
         <div className="p-4">
           <div className="sm:w-[535px] w-full h-auto sm:h-[270px] p-5 gap-10 mt-20 leading-[65px]">
             <p className="font-light text-sm ml-3">Introducing</p>
-            <h1 className="text-[90px] mt-2 font-bold tracking-tight leading-[80px]">
+            <h1 className="text-[90px] mt-2 font-bold tracking-tight leading-[80px] word-break-break-all">
               All new
               <br />
               Ai-Powered
