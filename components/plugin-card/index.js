@@ -8,7 +8,7 @@ import pluginImg4 from "../../public/pluginImg4.png";
 function PluginCard() {
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container mx-auto mt-10">
         <div className="mb-14 lg:mb-20">
           <h2 className={`text-6xl lg:text-[93px] pt-10 ${styles.heading}`}>
             Plug in to the future

@@ -7,6 +7,9 @@ import Intro from "@/components/intro/Intro";
 import CreaPartner from "@/components/creativePartner/CreaPartner";
 import WebDesign from "@/components/ourServices/WebDesign";
 import Dashboard from "@/components/dashboard/Dashboard";
+import OurCommunity from "@/components/our-Community/OurCommunity";
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +26,7 @@ export default function Home() {
       </div>
 
       <EcosystemDesign />
+      <OurCommunity/>
       <PluginCard />
       <PreviousWork />
     </>
