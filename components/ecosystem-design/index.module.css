@@ -1,0 +1,21 @@
+.heading {
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+  word-break: break-all;
+}
+
+.design h5 {
+  font-weight: 300;
+  color:#AAAAAA;
+  word-break: break-all;
+}
+
+.design span {
+  font-weight: 300;
+  color: #000000;
+}
+
+.btn {
+  background: linear-gradient(93.56deg, #e1ff26 2.64%, #f5e9d2 129.06%);
+}

@@ -1,4 +1,7 @@
-import Image from "next/image";
+import Banner from "@/components/banner";
+import EcosystemDesign from "@/components/ecosystem-design";
+import PluginCard from "@/components/plugin-card";
+import PreviousWork from "@/components/previous-work";
 import { Inter } from "next/font/google";
 import Intro from "@/components/intro/Intro";
 import CreaPartner from "@/components/creativePartner/CreaPartner";
@@ -9,12 +12,18 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div>
+      <>
+      <div>
       <Intro />
       <CreaPartner />
       {/* <WebServices/> */}
       <WebDesign />
       <Dashboard/>
     </div>
+      <Banner/>
+      <EcosystemDesign/>
+      <PluginCard/>
+      <PreviousWork/>
+      </>
   );
 }
