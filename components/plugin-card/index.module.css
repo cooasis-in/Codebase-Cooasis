@@ -1,0 +1,16 @@
+.heading {
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+  word-break: break-all;
+}
+
+.span {
+  color:#000000;
+  font-weight: 300;
+  word-break: break-all;
+}
+
+.sizing {
+  height: 400px;
+}
