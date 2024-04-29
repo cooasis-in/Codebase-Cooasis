@@ -25,13 +25,11 @@ function EcosystemDesign() {
             </h5>
           </div>
         </div>
-        <div className="w-[196.56px] h-[83px] mt-[100px]">
             <button
               className={`w-[150px] h-[63px] rounded-full font-semibold text-black text-lg flex items-center justify-center ${styles.btn}`}
             >
               Know more
             </button>
-          </div>
       </div>
     </>
   );

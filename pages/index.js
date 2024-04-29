@@ -14,17 +14,16 @@ export default function Home() {
   return (
     <>
       <div>
-        {/* <Intro /> */}
-        <Banner />
+        <Banner/>
+        <Intro />
         <CreaPartner />
         {/* <WebServices/> */}
         <WebDesign />
-        <Dashboard />
-      </div>
-
-      <EcosystemDesign />
-      <PluginCard />
-      <PreviousWork />
-    </>
+        <Dashboard/>
+        <EcosystemDesign/>
+        <PluginCard/>
+        <PreviousWork/>
+       </div>
+     </>
   );
 }
