@@ -9,10 +9,10 @@ const Dashboard = () => {
   return (
     <>
       <div
-        className={`main container mx-auto rounded-[65px] grid grid-cols-1 mt-20 md:grid-cols-2 items-center p-8 ${styles.custom}`}
+        className={`container mx-auto rounded-[65px] grid grid-cols-1  mt-20 md:grid-cols-2 items-center p-8 ${styles.custom}`}
       >
-        <div className="righ px-4 md:px-12 lg:px-28 text-center md:text-left">
-          <div className="text-4xl md:text-6xl lg:text-6xl xl:text-8xl font-bold tracking-tighter leading-10 md:leading-60">
+        <div className="righ px-4 md:px-1 lg:px-28 text-center md:text-left">
+          <div className="text-4xl md:text-6xl font-bold ">
             <h1>Completely</h1>
             <h1>customizable</h1>
             <h1>dashboard</h1>
@@ -70,10 +70,13 @@ const Dashboard = () => {
         >
           <div className="md:mt-10 p-5 ">
             <h1 className="text-3xl font-semibold">
-            Increased creative<br />performance
+              Increased creative
+              <br />
+              performance
             </h1>
             <p className="text-md  mt-8">
-            Digital ads and brand assets that performs better (47%<br/> increase in trail rate backed by data)
+              Digital ads and brand assets that performs better (47%
+              <br /> increase in trail rate backed by data)
             </p>
             <div className="w-full md:w-[196.56px] h-[83px] mt-14 flex justify-center">
               <button className="w-[196px] md:w-[200px] h-[70px] rounded-full font-semibold text-black text-lg bg-white">
@@ -85,7 +88,6 @@ const Dashboard = () => {
             <Image src={caseStudyImg2} alt="Description of the image" />
           </div>
         </div>
-        
       </div>
     </>
   );

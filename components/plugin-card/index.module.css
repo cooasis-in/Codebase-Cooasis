@@ -12,5 +12,14 @@
 }
 
 .sizing {
-  height: 400px;
+  height: auto;
+  
+}
+
+.btn{
+  background: #191A19;
+  opacity: 0.9;
+  color:  white;
+  font-weight: 600;
+  color:#E1FF26;
 }
