@@ -8,7 +8,7 @@ import pluginImg4 from "../../public/pluginImg4.png";
 function PluginCard() {
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container mx-auto mt-10">
         <div className="mb-14 lg:mb-20">
           <h2 className={`text-6xl lg:text-[93px] pt-10 ${styles.heading}`}>
             Plug in to the future
@@ -27,7 +27,7 @@ function PluginCard() {
           <div
             className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 mx-auto flex flex-col  ${styles.sizing}`}
           >
-            <span className="text-7xl self-end  font-bold">1</span>
+            <span className={`text-7xl self-end  font-bold ${styles.numberSpan}`}>1</span>
             <h1 className="font-bold py-16 mb-4 text-2xl h-[160px] text-white">
               Share briefs with
               <br /> our hassle free <br />
@@ -53,7 +53,7 @@ function PluginCard() {
           <div
             className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 mx-auto flex flex-col  ${styles.sizing}`}
           >
-            <span className="text-7xl self-end  font-bold">2</span>
+            <span className={`text-7xl self-end  font-bold ${styles.numberSpan}`}>2</span>
             <h1 className="font-bold py-16 text-2xl h-[160px] text-white">
               Get matched with
               <br /> designer suuuuuuper fast
@@ -78,7 +78,7 @@ function PluginCard() {
           <div
             className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 mx-auto flex flex-col  ${styles.sizing}`}
           >
-            <span className="text-7xl self-end  font-bold">3</span>
+            <span className={`text-7xl self-end  font-bold ${styles.numberSpan}`}>3</span>
             <h1 className="font-bold py-16 text-2xl h-[160px] text-white">
               Track progress seamlessly all-in-one dashboard
             </h1>
