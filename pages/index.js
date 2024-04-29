@@ -9,24 +9,21 @@ import WebDesign from "@/components/ourServices/WebDesign";
 import Dashboard from "@/components/dashboard/Dashboard";
 import OurCommunity from "@/components/our-Community/OurCommunity";
 
-
-
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
-      <div>
-        {/* <Intro /> */}
-        <Banner />
-        <CreaPartner />
-        {/* <WebServices/> */}
-        <WebDesign />
-        <Dashboard />
-      </div>
+      <Banner />
+      <Intro />
+      <CreaPartner />
+      {/* <WebServices/> */}
+      <WebDesign />
+
+      <Dashboard />
 
       <EcosystemDesign />
-      <OurCommunity/>
+      <OurCommunity />
       <PluginCard />
       <PreviousWork />
     </>
