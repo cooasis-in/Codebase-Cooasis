@@ -1,4 +1,32 @@
 .banner {
   background:#E1FF26;
-  height: 600px;
+}
+
+.heading {
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+  word-break: break-all;
+}
+
+.center img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner_logo {
+  margin-top: -80px;
+}
+
+.del_projects {
+  background: linear-gradient(180deg, #E1FF26 0%, #FFFFFF 100%);
+}
+
+.customers {
+  color:#000000;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
