@@ -83,7 +83,7 @@ function PluginCard() {
               Track progress seamlessly all-in-one dashboard
             </h1>
 
-            <div className="mt-4">
+            <div className="mt-20">
               <Image src={pluginImg} alt="Description of the image" />
             </div>
           </div>

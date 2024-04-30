@@ -1,12 +1,11 @@
 .btn {
-    background: linear-gradient(93.56deg, #e1ff26 2.64%, #f5e9d2 129.06%);
-  }
-  
+  background: linear-gradient(93.56deg, #e1ff26 2.64%, #f5e9d2 129.06%);
+}
 
-  .custom{
-    background-color: #E1FF26;
-  }
+.custom {
+  background-color: #e1ff26;
+}
 
-  .containerbg{
-    background: #F8F8F8;
-  }
+.containerbg {
+  background: #f8f8f8;
+}

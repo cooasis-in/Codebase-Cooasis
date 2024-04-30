@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Banner />
-      <Intro />
+      {/* <Intro /> */}
       <CreaPartner />
       {/* <WebServices/> */}
       <WebDesign />
