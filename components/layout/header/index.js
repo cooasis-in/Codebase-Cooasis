@@ -42,7 +42,7 @@ function Header() {
             >
               {showNavbar && (
                 <div
-                  className="cursor-pointer ml-6 mb-4 lg:none"
+                  className={`cursor-pointer ml-6 mb-4 lg:none ${styles.position}`}
                   onClick={handleMenu}
                 >
                   <img src="/images/icons/icons8-close.svg" alt="" />

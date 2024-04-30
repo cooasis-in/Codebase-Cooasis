@@ -31,6 +31,12 @@
   background: linear-gradient(93.56deg, #e1ff26 2.64%, #f5e9d2 129.06%);
 }
 
+.position {
+  position: absolute;
+  right: 20px;
+  top: 16px;
+}
+
 @media (max-width: 991px) {
   .header .navbar {
     display: grid;

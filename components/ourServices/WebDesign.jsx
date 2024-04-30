@@ -50,7 +50,7 @@ const WebDesign = () => {
   return (
     <div className="container mx-auto">
       <div className=" text-center leading-none p-10 ">
-        <h1 className="text-[60px] mt-2 font-bold tracking-tighter">
+        <h1 className={`text-[60px] mt-2 font-bold tracking-tighter ${styles.creative}`}>
           All creative services
           <br />
           under one roof
