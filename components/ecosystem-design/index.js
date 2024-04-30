@@ -18,9 +18,9 @@ function EcosystemDesign() {
       <h5 className="text-6xl lg:text-[30px] text-center pt-9">
         Get access to the powerhouse of design system where
         <br /> you
-        <span>earn, learn</span>
+        <span> earn, learn </span>
         and
-        <span>grow</span>
+        <span> grow </span>
         together.
       </h5>
     </div>
