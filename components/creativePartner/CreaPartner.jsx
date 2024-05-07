@@ -133,7 +133,7 @@ const CreaPartner = () => {
           <div className="mb-6">
             <Slider {...settings}>
               {images?.map((image, index) => (
-                <div className='px-3'>
+                <div className='px-3' key={index}>
                   <img src={image} alt="" />
                 </div>
               ))}
