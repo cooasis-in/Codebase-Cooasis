@@ -25,7 +25,7 @@ function PluginCard() {
         {/* Cards*/}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div
-            className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 mx-auto flex flex-col  ${styles.sizing}`}
+            className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 lg:pt-4 mx-auto flex flex-col  ${styles.sizing}`}
           >
             <span className={`text-7xl self-end  font-bold ${styles.numberSpan}`}>1</span>
             <h1 className="font-bold py-16 mb-4 text-2xl h-[160px] text-white">
@@ -51,7 +51,7 @@ function PluginCard() {
 
           {/* Card 2 */}
           <div
-            className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 mx-auto flex flex-col  ${styles.sizing}`}
+            className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 lg:pt-4 mx-auto flex flex-col  ${styles.sizing}`}
           >
             <span className={`text-7xl self-end  font-bold ${styles.numberSpan}`}>2</span>
             <h1 className="font-bold py-16 text-2xl h-[160px] text-white">
@@ -76,7 +76,7 @@ function PluginCard() {
           {/* Card 3 */}
 
           <div
-            className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 mx-auto flex flex-col  ${styles.sizing}`}
+            className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 lg:pt-4 mx-auto flex flex-col  ${styles.sizing}`}
           >
             <span className={`text-7xl self-end  font-bold ${styles.numberSpan}`}>3</span>
             <h1 className="font-bold py-16 text-2xl h-[160px] text-white">

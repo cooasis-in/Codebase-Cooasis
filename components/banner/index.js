@@ -6,7 +6,7 @@ function Banner() {
       <div className={styles.banner}>
         <div className="container mx-auto">
           <div className={styles.heading}>
-            <h2 className={`text-6xl lg:text-[93px] md:text-[73px] pt-10 ${styles.heading}`}>
+            <h2 className={`text-6xl lg:text-[93px] md:text-[73px] pt-16 ${styles.heading}`}>
               Unlock seamless
               <br />
               design solutions
@@ -20,7 +20,7 @@ function Banner() {
           <img src="images/banner-logo.png" alt="" />
         </div>
       </div>
-      <div className={`${styles.del_projects} pt-12 pb-[100px] md:pb-[150px] lg:pb-[200px]`}>
+      <div className={`${styles.del_projects} pt-12 pb-[100px] md:pb-[150px] lg:pb-[160px]`}>
         <div className="container">
           <div className={styles.customers}>
             <p>89,266 Pixel-perfect projects delivered to 450+ happy customers</p>
