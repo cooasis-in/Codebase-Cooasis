@@ -18,6 +18,10 @@
   margin-top: -80px;
 }
 
+.banner_logo img {
+  width: 100%;
+}
+
 .del_projects {
   background: linear-gradient(180deg, #E1FF26 0%, #FFFFFF 100%);
 }
