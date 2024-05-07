@@ -63,6 +63,9 @@ const CreaPartner = () => {
   </h1> */}
           <Image
             className="mt-20 max-w-full h-auto"
+            data-aos="zoom-in-down"
+            data-aos-duration="1500"
+            data-aos-offset="200"
             src={creativeImg}
             alt="Description of the image"
           />
@@ -70,7 +73,11 @@ const CreaPartner = () => {
 
         {/* Card */}
 
-        <div className="main flex flex-wrap justify-center gap-8 p-8 ">
+        <div
+          className="main flex flex-wrap justify-center gap-8 p-8"
+          data-aos="zoom-out-down"
+          data-aos-duration="1000"
+        >
           <div className="opacity-70">
             <div className="card bg-base-100 shadow-xl">
               <figure>

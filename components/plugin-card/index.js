@@ -9,7 +9,7 @@ function PluginCard() {
   return (
     <>
       <div className="container mx-auto mt-10">
-        <div className="mb-14 lg:mb-20">
+        <div className="mb-14 lg:mb-20" data-aos="zoom-out-down">
           <h2 className={`text-6xl lg:text-[93px] pt-10 ${styles.heading}`}>
             Plug in to the future
             <br />
@@ -23,7 +23,7 @@ function PluginCard() {
         </div>
 
         {/* Cards*/}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="flip-right">
           <div
             className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 lg:pt-4 mx-auto flex flex-col  ${styles.sizing}`}
           >

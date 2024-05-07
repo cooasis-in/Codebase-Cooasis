@@ -6,6 +6,8 @@ import Image from "next/image";
 const OurCommunity = () => {
   return (
     <>
+    <div className={`container grid grid-cols-1 mx-auto mt-10 rounded-[65px] p-10 ${styles.bgcustom}`} data-aos="zoom-in-down">
+          <div className='text-center p-5'>
       <div className={`container grid grid-cols-1 mx-auto mt-10 rounded-[65px] p-10 relative ${styles.bgcustom}`}>
         <div className="left-side-image absolute left-[7%] bottom-[42%] hidden xl:block">
           <img src="images/left-side.png" alt="" />

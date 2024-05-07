@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <>
-      <header className={`p-3 lg:p-4 ${styles.header}`}>
+      <header className={`p-3 lg:p-4 ${styles.header} `} >
         <div className="container mx-auto px-4 py-2 lg:py-6 lg:px-8">
           <nav className={styles.navbar}>
             <div className="lg:hidden">

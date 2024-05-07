@@ -11,7 +11,8 @@ const Dashboard = () => {
       <div
         className={`container mx-auto rounded-[65px]  grid grid-cols-1 w-[]  mt-20 md:grid-cols-2 items-center p-8 ${styles.custom} relative`}
       >
-        <div className="righ px-4 lg:px-6 text-center md:text-left">
+        <div className="righ px-4 lg:px-6 text-center md:text-left" data-aos="zoom-in-right" 
+            data-aos-offset="200">
           <div className="text-4xl md:text-6xl font-bold  ">
             <h1>Completely</h1>
             <h1>customizable</h1>
@@ -33,7 +34,7 @@ const Dashboard = () => {
             </button>
           </div>
         </div>
-        <div className="p-4 ">
+        <div className="p-4" data-aos="zoom-in-left">
           <Image
             src={dashboardImg}
             alt="Description of the image"
@@ -47,7 +48,7 @@ const Dashboard = () => {
       <div className="container mx-auto grid md:grid-cols-2 w-[90% p-4 gap-8 mt-4 justify-center items-center">
         {/* Part 1 */}
         <div
-          className={`flex justify-center   items-center p-5 rounded-[45px] ${styles.containerbg}`}
+          className={`flex justify-center   items-center p-5 rounded-[45px] ${styles.containerbg}`} data-aos="fade-right"
         >
           <div className=" p-4 bg">
             <h1 className="text-[21px] font-semibold leading-5">
@@ -70,7 +71,7 @@ const Dashboard = () => {
         {/* Part 2 */}
          
         <div
-          className={`flex justify-center items-center p-5 rounded-[45px] ${styles.containerbg}`}
+          className={`flex justify-center items-center p-5 rounded-[45px] ${styles.containerbg}`} data-aos="fade-left"
         >
           <div className=" p-4 bg">
             <h1 className="text-[21px] font-semibold leading-5">
