@@ -7,15 +7,15 @@ const Intro = () => {
   return (
     <>
       <div className="container mx-auto sm:flex sm:flex-row-reverse">
-        <div className="p-8">
+        <div className="px-4">
           <div className="w-full h-full">
             <Image src={introImg} alt="Description of the image" />
           </div>
         </div>
-        <div className="p-4">
-          <div className="sm:w-[535px] w-full h-auto sm:h-[270px] p-5 gap-10 mt-20 leading-[65px]">
-            <p className="font-light text-sm ml-3">Introducing</p>
-            <h1 className={`text-[90px] mt-2 font-bold tracking-tight leading-[80px] ${styles.break}`}>
+        <div className="px-4">
+          <div className="sm:w-[535px] w-full h-auto sm:h-[270px] gap-10 mt-8 leading-[65px]">
+            <p className="font-light text-sm ml-3 text-[20px]">Introducing</p>
+            <h1 className={`text-[75px] mt-4 font-bold tracking-tight leading-[80px] ${styles.break}`}>
               All new
               <br />
               Ai-Powered
@@ -24,7 +24,7 @@ const Intro = () => {
             </h1>
           </div>
 
-          <div className="w-[196.56px] h-[83px] mt-[100px]">
+          <div className="w-[196.56px] h-[83px] mt-[40px]">
             <button
               className={`w-[150px] h-[63px] rounded-full font-semibold text-black text-lg flex items-center justify-center ${styles.btn}`}
             >
