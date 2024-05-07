@@ -82,7 +82,7 @@ function PreviousWork() {
   return (
     <>
       <div className="container mx-auto mt-10">
-        <div className="mb-14 lg:mb-20">
+        <div className="mb-14 lg:mb-20" data-aos="zoom-in">
           <h2 className={`text-6xl lg:text-[93px] pt-10 ${styles.heading}`}>A glimpse of
             <br />
             previous work</h2>

@@ -6,7 +6,7 @@ import Image from "next/image";
 const OurCommunity = () => {
   return (
     <>
-    <div className={`container grid grid-cols-1 mx-auto mt-10 rounded-[65px] p-10 ${styles.bgcustom}`}>
+    <div className={`container grid grid-cols-1 mx-auto mt-10 rounded-[65px] p-10 ${styles.bgcustom}`} data-aos="zoom-in-down">
           <div className='text-center p-5'>
           <h1 className="text-[40px] md:text-[70px] mt-2 font-bold tracking-tighter leading-[70px] ">
           We are loved by our

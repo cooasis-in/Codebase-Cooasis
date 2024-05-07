@@ -4,7 +4,7 @@ function Banner() {
   return (
     <>
       <div className={styles.banner}>
-        <div className="container mx-auto">
+        <div className="container mx-auto" data-aos="fade-right"> 
           <div className={styles.heading}>
             <h2 className={`text-6xl lg:text-[93px] md:text-[73px] pt-10 ${styles.heading}`}>
               Unlock seamless
@@ -25,7 +25,7 @@ function Banner() {
           <div className={styles.customers}>
             <p>89,266 Pixel-perfect projects delivered to 450+ happy customers</p>
           </div>
-          <div className={styles.logos}>
+          <div className={styles.logos} data-aos="zoom-in" >
             <img src="images/logos.png" alt="" />
           </div>
         </div>
