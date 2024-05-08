@@ -6,6 +6,13 @@
   background-color: #e1ff26;
 }
 
-.containerbg {
+.left_side {
   background: #f8f8f8;
+}
+
+.button {
+  background-color: #FFFFFF;
+  color:#131313;
+  border: 1px solid #014F5914;
+  letter-spacing: -5%;
 }

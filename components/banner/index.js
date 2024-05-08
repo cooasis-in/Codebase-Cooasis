@@ -11,8 +11,8 @@ function Banner() {
               <br />
               design solutions
             </h2>
-            <div className={`pt-4 md:pt-7 ${styles.center}`}>
-              <img src="images/product.svg" alt="" className="w-full md:w-auto" />
+            <div className={`pt-4 md:pt-7 pb-16 md:pb-0 ${styles.center}`}>
+              <img src="images/product.svg" alt="" className="sm:w-auto w-[180px]" />
             </div>
           </div>
         </div>

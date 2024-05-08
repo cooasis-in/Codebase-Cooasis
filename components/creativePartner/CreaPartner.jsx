@@ -13,26 +13,42 @@ const CreaPartner = () => {
     infinite: true,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: '180px',
     responsive: [
       {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          centerPadding: '220px',
+        }
+      },
+      {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
+          centerPadding: '140px',
         }
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
+          centerPadding: '100px',
         }
       },
       {
         breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: "90px",
+        }
+      },
+      {
+        breakpoint: 500,
         settings: {
           slidesToShow: 1,
           centerPadding: "40px",
@@ -52,7 +68,7 @@ const CreaPartner = () => {
   return (
     <>
       <div
-        className={`bg-custom-yellow container mx-auto rounded-[65px] w-[85%] mt-20 ${styles.custom}`}
+        className={`bg-custom-yellow container mx-auto rounded-[65px] mt-20 ${styles.custom}`}
       >
         <div className="text-center w-full max-w-[600px] flex justify-center mx-auto p-6">
           {/* <h1 className="text-4xl mt-20 font-bold leading-none text-center">

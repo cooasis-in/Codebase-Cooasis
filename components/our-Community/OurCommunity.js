@@ -12,7 +12,7 @@ const OurCommunity = () => {
         <div
           className={`grid grid-cols-1 mx-auto rounded-[65px] p-5 relative ${styles.bgcustom}`}
         >
-          <div className="left-side-image absolute left-[7%] bottom-[42%] hidden xl:block" data-aos="fade-right">
+          <div className="left-side-image absolute left-[7%] bottom-[35%] hidden xl:block" data-aos="fade-right">
             <img src="images/left-side.png" alt="" />
           </div>
           <div className="text-center p-5">
@@ -30,7 +30,7 @@ const OurCommunity = () => {
               growing businesses.
             </p>
           </div>
-          <div className="right-side-image absolute right-[5px] xxl:right-[5%] bottom-[15%] hidden xl:block" data-aos="fade-left">
+          <div className="right-side-image absolute right-[5px] xxl:right-[5%] bottom-[9%] hidden xl:block" data-aos="fade-left">
             <img
               src="images/right-side.png"
               className="max-w-[250px] xxl:max-w-[100%]"
