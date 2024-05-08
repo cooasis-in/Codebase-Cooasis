@@ -31,10 +31,10 @@ const WebDesign = () => {
         },
       },
       {
-        breakpoint: 575,
+        breakpoint: 640,
         settings: {
           slidesToShow: 1,
-          centerPadding: "50px",
+          centerPadding: "40px",
         },
       },
     ],
@@ -50,7 +50,7 @@ const WebDesign = () => {
   return (
     <div className="container mx-auto" >
       <div className=" text-center leading-none p-10" data-aos="zoom-in" data-aos-duration="1500">
-        <h1 className={`text-[60px] mt-2 font-bold tracking-tighter ${styles.creative}`}>
+        <h1 className={`text-[25px] md:text-5xl lg:text-6xl font-bold tracking-tighter ${styles.creative}`}>
           All creative services
           <br />
           under one roof

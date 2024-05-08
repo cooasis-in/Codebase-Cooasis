@@ -32,9 +32,10 @@ const CreaPartner = () => {
         }
       },
       {
-        breakpoint: 575,
+        breakpoint: 640,
         settings: {
           slidesToShow: 1,
+          centerPadding: "40px",
         }
       },
     ]
@@ -63,9 +64,6 @@ const CreaPartner = () => {
   </h1> */}
           <Image
             className="mt-20 max-w-full h-auto"
-            data-aos="zoom-in-down"
-            data-aos-duration="1500"
-            data-aos-offset="200"
             src={creativeImg}
             alt="Description of the image"
           />
@@ -75,8 +73,7 @@ const CreaPartner = () => {
 
         <div
           className="main flex flex-wrap justify-center gap-8 p-8"
-          data-aos="zoom-out-down"
-          data-aos-duration="1000"
+          data-aos="zoom-in-down"
         >
           <div className="opacity-70">
             <div className="card bg-base-100 shadow-xl">

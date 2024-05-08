@@ -12,10 +12,10 @@ const Intro = () => {
             <Image src={introImg} alt="Description of the image" />
           </div>
         </div>
-        <div className="px-4">
-          <div className="sm:w-[535px] w-full h-auto sm:h-[270px] gap-10 mt-8 leading-[65px]">
+        <div className="px-4 mt-8 sm:w-full sm:max-w-md lg:max-w-none lg:mx-0">
+          <div className="w-full sm:h-[270px] gap-10 leading-[65px]">
             <p className="font-light text-sm ml-3 text-[20px]">Introducing</p>
-            <h1 className={`text-[75px] mt-4 font-bold tracking-tight leading-[80px] ${styles.break}`}>
+            <h1 className={`text-[40px] sm:text-[75px] mt-4 font-bold tracking-tight md:leading-[80px] ${styles.break}`}>
               All new
               <br />
               Ai-Powered
@@ -24,9 +24,9 @@ const Intro = () => {
             </h1>
           </div>
 
-          <div className="w-[196.56px] h-[83px] mt-[40px]">
+          <div className="w-full mt-4 sm:w-auto sm:mt-8">
             <button
-              className={`w-[150px] h-[63px] rounded-full font-semibold text-black text-lg flex items-center justify-center ${styles.btn}`}
+              className={`w-full sm:w-[150px] h-[63px] rounded-full font-semibold text-black text-lg flex items-center justify-center ${styles.btn}`}
             >
               Book a Demo
             </button>

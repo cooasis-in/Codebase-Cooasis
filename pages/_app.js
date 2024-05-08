@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({
       offset:300,
-      duration:1500,
+      duration:1200,
       // easing: 'ease-in',
       once: false,
     }); // Initialize AOS on the client-side
