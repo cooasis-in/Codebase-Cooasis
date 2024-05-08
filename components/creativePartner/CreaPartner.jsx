@@ -64,7 +64,6 @@ const CreaPartner = () => {
   </h1> */}
           <Image
             className="mt-20 max-w-full h-auto"
-            data-aos="zoom-in-down"
             src={creativeImg}
             alt="Description of the image"
           />
