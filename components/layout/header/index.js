@@ -49,7 +49,7 @@ function Header() {
                 </div>
               )}
               <ul
-                className={`${styles["navbar-nav"]} md:ml-auto lg:flex items-center`}
+                className={`${styles["navbar-nav"]} md:ml-auto lg:flex items-center`} 
               >
                 <li>
                   <Link href="/" className={styles["nav-link"]}>

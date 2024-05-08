@@ -9,25 +9,36 @@ function PluginCard() {
   return (
     <>
       <div className="container mx-auto mt-10">
-        <div className="mb-14 lg:mb-20" data-aos="zoom-out-down">
-          <h2 className={`text-6xl lg:text-[93px] pt-10 ${styles.heading}`}>
-            Plug in to the future
+        <div
+          className="mb-6 md:mb-10 lg:mb-14 xl:mb-20"
+          data-aos="zoom-in-down"
+        >
+          <h2
+            className={`text-3xl md:text-4xl lg:text-5xl xl:text-[93px] pt-6 md:pt-8 lg:pt-10 ${styles.heading}`}
+          >
+            Plug in to the future
             <br />
             of design, today
           </h2>
           <div className={`flex justify-center ${styles.span}`}>
-            <span className="text-6xl lg:text-[30px] text-center pt-4">
+            <span className="text-xl md:text-2xl lg:text-3xl xl:text-[30px] text-center pt-2 md:pt-4">
               Seamless online collaboration
             </span>
           </div>
         </div>
 
         {/* Cards*/}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="flip-right">
+        <div
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
           <div
             className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 lg:pt-4 mx-auto flex flex-col  ${styles.sizing}`}
           >
-            <span className={`text-7xl self-end  font-bold ${styles.numberSpan}`}>1</span>
+            <span
+              className={`text-7xl self-end  font-bold ${styles.numberSpan}`}
+            >
+              1
+            </span>
             <h1 className="font-bold py-16 mb-4 text-2xl h-[160px] text-white">
               Share briefs with
               <br /> our hassle free <br />
@@ -53,7 +64,11 @@ function PluginCard() {
           <div
             className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 lg:pt-4 mx-auto flex flex-col  ${styles.sizing}`}
           >
-            <span className={`text-7xl self-end  font-bold ${styles.numberSpan}`}>2</span>
+            <span
+              className={`text-7xl self-end  font-bold ${styles.numberSpan}`}
+            >
+              2
+            </span>
             <h1 className="font-bold py-16 text-2xl h-[160px] text-white">
               Get matched with
               <br /> designer suuuuuuper fast
@@ -78,7 +93,11 @@ function PluginCard() {
           <div
             className={`w-full max-w-sm lg:gr bg-black rounded-3xl sm:p-8 lg:pt-4 mx-auto flex flex-col  ${styles.sizing}`}
           >
-            <span className={`text-7xl self-end  font-bold ${styles.numberSpan}`}>3</span>
+            <span
+              className={`text-7xl self-end  font-bold ${styles.numberSpan}`}
+            >
+              3
+            </span>
             <h1 className="font-bold py-16 text-2xl h-[160px] text-white">
               Track progress seamlessly all-in-one dashboard
             </h1>
