@@ -17,8 +17,8 @@ export default function Home() {
       <Banner />
       <Intro />
       <CreaPartner />
+      <WebServices/>
       <WebDesign />
-      {/* <Dashboard /> */}
       <EcosystemDesign />
       <OurCommunity />
       <PluginCard />

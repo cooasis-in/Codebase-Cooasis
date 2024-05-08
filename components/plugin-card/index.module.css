@@ -12,8 +12,7 @@
 }
 
 .sizing {
-  /* height: auto; */
-  
+  /* height: auto; */ 
 }
 
 .btn{
@@ -28,3 +27,11 @@
   color: white;
   opacity: 0.5;
 }
+
+/* @media (max-width: 1200px) {
+  
+  .fixed {
+    margin-top: 100px;
+  }
+
+} */
