@@ -48,5 +48,4 @@ const OurCommunity = () => {
     </div>
   );
 };
-
 export default OurCommunity;
