@@ -1,6 +1,6 @@
 import styles from "./index.module.css";
 import Link from "next/link";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 
 function Header() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -9,10 +9,27 @@ function Header() {
     setShowNavbar((prevState) => !prevState);
   };
 
+  const [affix, setAffix] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 130) {
+      setAffix(true);
+    } else {
+      setAffix(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <header className={`p-3 lg:p-4 ${styles.header} `} >
-        <div className="container mx-auto px-4 py-2 lg:py-6 lg:px-8">
+      <header className={`p-3 lg:p-4 ${styles.header} ${affix ? styles.affix : ''}`} >
+        <div className="container mx-auto px-4 py-2 lg:py-3 lg:px-8">
           <nav className={styles.navbar}>
             <div className="lg:hidden">
               <button className="block w-10" onClick={handleMenu} type="button">

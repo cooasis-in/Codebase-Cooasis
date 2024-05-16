@@ -66,6 +66,17 @@
     flex-grow: 1;
     align-items: center;
  }
+
+ .affix {
+  background: none !important;
+}
+
+.affix > div {
+  border-radius: 56px;
+  background: none !important;
+  backdrop-filter: blur(31px);
+  -webkit-backdrop-filter: blur(31px);
+}
 }
 @media (max-width: 991px) {
   .header .navbar .navbar-collapse {
