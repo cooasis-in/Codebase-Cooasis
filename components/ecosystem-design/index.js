@@ -3,8 +3,8 @@ import styles from './index.module.css';
 function EcosystemDesign() {
   return (
 
-   <div className="container mx-auto">
-  <div className="mb-14 lg:mb-20">
+   <div className="container mx-auto mt-4 lg:mt-20">
+  <div className="mb-6 lg:mb-10">
     <h2 className={`text-3xl md:text-6xl lg:text-[93px] md:text-[73px] pt-10 ${styles.heading}`}>
       Not just-a-design
       <br />
@@ -25,7 +25,7 @@ function EcosystemDesign() {
       </h5>
     </div>
   </div>
-  <div className="mt-[100px]">
+  <div className="">
     <button
       className={`w-[150px] h-[63px] rounded-full m-auto font-semibold text-black text-lg flex items-center justify-center ${styles.btn}`}
     >

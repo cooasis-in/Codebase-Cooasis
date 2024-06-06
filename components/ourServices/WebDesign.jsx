@@ -57,7 +57,7 @@ const WebDesign = () => {
         </h1>
       </div>
       <div className="mb-6">
-        <Slider {...settings}>
+        <Slider {...settings} >
           {images.map((image, index) => (
             <div className="px-3" key={index}>
               <img src={image} alt="" className="w-full" />{" "}
@@ -66,9 +66,9 @@ const WebDesign = () => {
           ))}
         </Slider>
       </div>
-      <div className="w-[196.56px] h-[83px] mt-[100px] m-auto">
+      <div className="w-[196.56px] h-[83px] mt-14 m-auto">
             <button
-              className={`w-[200px] h-[70px] rounded-full font-semibold text-black text-lg flex items-center justify-center ${styles.btn} `}
+              className={`w-[200px] h-[70px] rounded-full font-semibold text-black text-lg flex items-center justify-center ${styles.btn} p-2`}
             >
               Browse all services
             </button>
