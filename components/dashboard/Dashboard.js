@@ -6,10 +6,10 @@ import styles from "./dashboard.module.css";
 const Dashboard = () => {
   return (
     <>
-      <div className={`container mx-auto px-4 rounded-[65px]  lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20 ${styles.custom}`}>
+      <div className={`container mx-auto px-4 lg:px-6 rounded-[65px] grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20 ${styles.custom}`}>
 
         {/* Left Section */}
-        <div className="text-center md:text-left" data-aos="zoom-in-right" data-aos-offset="200">
+        <div className="text-center md:text-left p-6">
           <div className="text-4xl md:text-6xl mt-10 lg:mt-5 font-bold mb-8">
             <h1 className="text-center lg:text-left">Completely
               <br />
@@ -30,13 +30,15 @@ const Dashboard = () => {
         </div>
 
         {/* Right Section */}
-        <div className="p-4">
-          <Image src={dashboardImg} alt="Description of the image" className="w-full" />
+        <div className="py-3 lg:p-4 flex justify-center">
+          <div className="w-full max-w-[637.61px]">
+            <Image src={dashboardImg} alt="Description of the image" layout="responsive" width={637.61} height={640.8} />
+          </div>
         </div>
       </div>
 
       {/* Section 2 */}
-      <div className="container px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-8 lg:mt-12">
+      <div className="container mx-auto px-4 lg:px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-6 lg:mt-4">
         {/* Part 1 */}
         <div className={`pl-8 py-8 pr-0 rounded-3xl sm:flex items-center ${styles.left_side}`}>
           <div className="content">
@@ -45,7 +47,7 @@ const Dashboard = () => {
             <button className={`mt-6 py-5 px-5 text-[20px] font-semibold rounded-full ${styles.button}`}>Read case study</button>
           </div>
           <div className="image flex justify-center mt-4 sm:mt-0">
-            <img src="images/caseStudy-1.png" alt="" />
+            <img src="images/caseStudy-1.png" alt="" className="max-w-full h-auto" />
           </div>
         </div>
 
@@ -57,10 +59,9 @@ const Dashboard = () => {
             <button className={`mt-6 py-5 px-5 text-[20px] font-semibold rounded-full ${styles.button}`}>Read case study</button>
           </div>
           <div className="image flex justify-center mt-4 sm:mt-0">
-            <img src="images/caseStudy-2.png" alt="" />
+            <img src="images/caseStudy-2.png" alt="" className="max-w-full h-auto" />
           </div>
         </div>
-
       </div>
     </>
   );

@@ -6,7 +6,7 @@ import Image from "next/image";
 const OurCommunity = () => {
   return (
     <div
-      className={`container mx-auto mt-10 rounded-[65px] p-5 md:p-10 ${styles.bgcustom}`}
+      className={`container mx-auto mt-10 lg:mt-20 rounded-[65px] p-5 md:p-10 ${styles.bgcustom}`}
     >
       <div className="text-center">
         <div
@@ -37,8 +37,8 @@ const OurCommunity = () => {
               alt=""
             />
           </div>
-          <div className="flex justify-center mt-6 md:mt-10 p-5">
-            <div className="max-w-[70%]">
+          <div className="flex justify-center mt-6 md:mt-10 p-0 lg:p-5">
+            <div className="max-w-[100%] lg:max-w-[70%]">
               {" "}
               <Image src={productImg} alt="Description of the image" />
             </div>
