@@ -99,11 +99,11 @@ function Header() {
                   </Link>
                 </li>
                 <li>
-                  <button
+                  <Link href="/login"
                     className={`w-[150px] h-[63px] rounded-full font-semibold text-black text-lg flex items-center justify-center ${styles.btn}`}
                   >
                     Book a demo
-                  </button>
+                  </Link>
                 </li>
               </ul>
             </div>
